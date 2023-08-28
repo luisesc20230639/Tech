@@ -1,0 +1,22 @@
+body{
+    font-family: Montserrat;
+}
+
+.parrafo{
+    font-size: x-large;
+}
+
+.sub{
+    color: #8e6995;
+}
+
+
+#flexfooter{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.imagen-1{
+    margin-right: 10px;
+}
