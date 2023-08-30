@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,17 +14,20 @@
     <script src="../Js/menupages.js" defer></script>
     <script src="../Js/footerpages.js" defer></script>
 </head>
+
 <body>
-       <!-- Menú -->
-       <div id="menuContenedor"></div>
+    <!-- Menú -->
+    <div id="menuContenedor"></div>
     <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
         <div class="container" id="inicio">
             <div class="d-sm-flex align-items-center justify-content-between">
                 <div>
-                    <h1><center>Descargas</center></h1>
+                    <h1>
+                        <center>Descargas</center>
+                    </h1>
                     <p class="lead my-4">
                         Descarga el manual ahora mismo para saber más de todo lo que te brinda el
-                    sistema de Technomarket.
+                        sistema de Technomarket.
                     </p>
 
                 </div>
@@ -31,24 +35,76 @@
         </div>
     </section>
     <br>
-   
-        <div class="container text-center">
-            <div class="row">
-                    <br><br>
-                    <div class="col">
-                        <img src="../img/descargar.jpeg" alt="" width="350px">
-                        <br><br>
-                        <h3>Obten Technomarket</h3>
-                        <img class="imagen-1" src="../img/iconmonstr-windows-os-1-240.png" alt="" width="28px">
-                        <a class="btn btn-outline-secondary" href="../archivo/Propuesta PTC2.pdf" role="button" download="Propuesta">Descarga Aquí</a>
+
+    <div class="container text-center">
+        <div class="row">
+            <br><br>
+            <div class="col">
+                <img src="../img/descargar.jpeg" alt="" width="350px">
+                <br><br>
+                <h3>Obten Technomarket</h3>
+                <img class="imagen-1" src="../img/iconmonstr-windows-os-1-240.png" alt="" width="28px">
+                <a class="btn btn-outline-secondary" href="../archivo/Propuesta PTC2.pdf" target="_blank">Descarga
+                    Aquí</a>
+            </div>
+
+            <div class="col">
+
+                <div class="card">
+
+                    <div class="card-body pb-0">
+
+                        <div class="mb-2">
+                            <h5 class="card-title">Selecciona una licencia:</h5>
+                            <select class="form-select" id="selectorLicencia">
+                                <option value="ninguno">Selecciona una Opción</option>
+                                <option value="sencilla" id="opcionSencilla">Licencia Sencilla</option>
+                                <option value="premium" id="opcionPremium">Licencia Premium</option>
+                            </select>
+                            <p class="card-text mt-3">Descripción: <span id="descripcion">Selecciona un tipo de
+                                    licencia
+                                </span></p>
+                        </div>
                     </div>
+                    <hr class="my-0"/>
+                    <div class="card-body pb-0 mb-3">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text">Subtotal: <span class="text-dark small text-muted" id="precio">$</span>
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <hr class="my-0" />
+
+                    <img src="../img/dibujol.png" class="card-img-bottom" alt="...">
+                    <div class="card-body">
+                        <div class="justify-content-between align-items-center pb-2 mb-1">
+                            <button type="button" class="btn btn-outline-secondary" id="comprarBtn">Comprar
+                                ahora</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+
     <br>
+
+
+
+
+
+    <!-- Licencia -->
+    <script src="../Js/descargas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+
+
     <!-- Footer -->
     <div id="footerContenedor"></div>
     <script src="../Js/cargarfooterpages.js"></script>
     <script src="../Js/cargarmenupages.js"></script>
-        <script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
