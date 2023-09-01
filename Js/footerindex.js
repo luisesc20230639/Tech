@@ -26,21 +26,22 @@ function generarFooterIndex()
              </div>
          </div>
 
-         <div class="col">
+         <div class="container">
+           <form id="formularioContacto2">
              <div class="mb-3">
-                 <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
-                 <input type="email" class="form-control" id="exampleFormControlInput1"
-                     placeholder="name@example.com">
+               <label for="nombre" class="form-label">Nombre</label>
+               <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
              </div>
              <div class="mb-3">
-                 <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+               <label for="correo" class="form-label">Correo</label>
+               <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com" required>
              </div>
-             <div>
-                 <div class="d-grid gap-2">
-                     <button class="btn" type="button">Enviar</button>
-                 </div>
+             <div class="mb-3">
+               <label for="mensaje" class="form-label">Comentario</label>
+               <textarea class="form-control" id="mensaje" rows="5" placeholder="Ingrese su mensaje" required></textarea>
              </div>
+             <button type="submit" class="btn btn-primary" id="enviarBtn">Enviar</button>
+           </form>
          </div>
      </div>
  </div>
