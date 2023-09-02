@@ -34,7 +34,7 @@ function generarMenuPages()
                  <a class="nav-link" href="../pages/contactanos.html">Contáctanos</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="#">Inglés</a>
+                 <a class="nav-link" href="../en/index.html">Inglés</a>
              </li>
          </ul>
      </div>
