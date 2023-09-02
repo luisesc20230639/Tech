@@ -1,3 +1,4 @@
+
 const selectOpcion = document.getElementById("selectorLicencia")
 
 
@@ -11,18 +12,18 @@ let licencia = 0;
 
 selectorLicencia.addEventListener('change', function(){
     
-    if (selectorLicencia.value === 'simple') {
-        descripcionLicencia.textContent = 'Access to basic functions and limited functions';
+    if (selectorLicencia.value === 'sencilla') {
+        descripcionLicencia.textContent = 'Acceso a funciones básicas y funciones limitadas';
         licencia=250;
         precioLicencia.textContent = `$${licencia}`
     } else if (selectorLicencia.value == 'premium'){
-        descripcionLicencia.textContent = 'Full access to all features, advanced security and extended technical support';
+        descripcionLicencia.textContent = 'Acceso completo a todas las funciones, seguridad avanzada y soporte técnico ampliado';
         licencia=500;
         precioLicencia.textContent = ` $${ licencia}`;
 
     } else {
         licencia=0;
-        descripcionLicencia.textContent = 'Select a License';
+        descripcionLicencia.textContent = 'Seleccione una Licencia';
         precioLicencia.textContent = `$`
     }
 })
@@ -30,23 +31,23 @@ selectorLicencia.addEventListener('change', function(){
 comprarBtn.addEventListener('click', function(){
 
     if (licencia===0) {
-        swal.fire('License cannot be purchased successfully purchased!', '', 'mistake')
+        swal.fire('¡Licencia no se puede comprar comprada exitosamente!', '', 'error')
         return
     }
     else{
 
         Swal.fire({
             icon: 'question',
-            title: 'Confirm purchase',
-            text: 'Are you sure to buy the license?',
+            title: 'Confirmar compra',
+            text: '¿Estas seguro de comprar la licencia?',
             showCancelButton: true,
-            confirmButtonText: 'Yes, buy, comprar',
-            cancelButtonText: 'Cancelr',
+            confirmButtonText: 'Si, comprar',
+            cancelButtonText: 'Cancelar',
     
         }).then((result) => {
             
             if(result.isConfirmed){
-                swal.fire('License purchased successfully!', '', 'success')
+                swal.fire('¡Licencia comprada exitosamente!', '', 'success')
             }
         })
     }

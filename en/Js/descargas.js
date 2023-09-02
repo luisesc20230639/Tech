@@ -12,18 +12,18 @@ let licencia = 0;
 
 selectorLicencia.addEventListener('change', function(){
     
-    if (selectorLicencia.value === 'sencilla') {
-        descripcionLicencia.textContent = 'Acceso a funciones básicas y funciones limitadas';
+    if (selectorLicencia.value === 'simple') {
+        descripcionLicencia.textContent = 'Access to basic functions and limited functions';
         licencia=250;
         precioLicencia.textContent = `$${licencia}`
     } else if (selectorLicencia.value == 'premium'){
-        descripcionLicencia.textContent = 'Acceso completo a todas las funciones, seguridad avanzada y soporte técnico ampliado';
+        descripcionLicencia.textContent = 'Full access to all features, advanced security and extended technical support';
         licencia=500;
         precioLicencia.textContent = ` $${ licencia}`;
 
     } else {
         licencia=0;
-        descripcionLicencia.textContent = 'Seleccione una Licencia';
+        descripcionLicencia.textContent = 'Select a License';
         precioLicencia.textContent = `$`
     }
 })
@@ -31,23 +31,23 @@ selectorLicencia.addEventListener('change', function(){
 comprarBtn.addEventListener('click', function(){
 
     if (licencia===0) {
-        swal.fire('¡Licencia no se puede comprar comprada exitosamente!', '', 'error')
+        swal.fire('License cannot be purchased successfully purchased!', '', 'mistake')
         return
     }
     else{
 
         Swal.fire({
             icon: 'question',
-            title: 'Confirmar compra',
-            text: '¿Estas seguro de comprar la licencia?',
+            title: 'Confirm purchase',
+            text: 'Are you sure to buy the license?',
             showCancelButton: true,
-            confirmButtonText: 'Si, comprar',
-            cancelButtonText: 'Cancelar',
+            confirmButtonText: 'Yes, buy',
+            cancelButtonText: 'Cancel',
     
         }).then((result) => {
             
             if(result.isConfirmed){
-                swal.fire('¡Licencia comprada exitosamente!', '', 'success')
+                swal.fire('License purchased successfully!', '', 'success')
             }
         })
     }
