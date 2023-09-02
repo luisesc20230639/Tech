@@ -7,7 +7,7 @@ function generarFooterIndex()
              <p>Calle Francisco Prats Ramírez
                  20, esquina Olegatorio
                  Tenares, Los Restauradoes,
-                 Santo Domingo
+                 Santo Domingo.
              </p>
              <p>
                  Tel: +503 6143 1352
@@ -45,6 +45,7 @@ function generarFooterIndex()
      </div>
  </div>
  <center>
+ <br>
      <p>Copyright &copy; 2023 | Designed With by Technomarket</p>
  </center>
 </footer>`;

@@ -19,7 +19,7 @@ function generarMenuIndex()
                  <a class="nav-link" href="index.html">Inicio</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="pages/categorias.html">Categorias</a>
+                 <a class="nav-link" href="pages/categorias.html">Categorías</a>
              </li>
              <li class="nav-item">
                  <a class="nav-link" href="pages/funcionalidades.html">Funcionalidades</a>
@@ -31,7 +31,10 @@ function generarMenuIndex()
                  <a class="nav-link" href="pages/about.html">Sobre nosotros</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="#">Ingles</a>
+                 <a class="nav-link" href="pages/contactanos.html">Contáctanos</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="#">Inglés</a>
              </li>
          </ul>
      </div>
