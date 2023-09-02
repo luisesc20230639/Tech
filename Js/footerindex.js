@@ -4,7 +4,6 @@ function generarFooterIndex()
  <div class="container text-center">
      <div class="row row-cols-2">
          <div class="col">
-             <h5>Contacto</h5>
              <br>
              <p>Calle Francisco Prats Ramírez
                  20, esquina Olegatorio
@@ -17,38 +16,39 @@ function generarFooterIndex()
              <p>
                  technomarket@gmail.com
              </p>
-             <div id="flexfooter">
-                 <ul>
-                     <img src="img/whatsapp.webp" width="70">
-                     <img src="img/facebook.webp" width="40">
-                     <img src="img/instagram2.webp" width="40">
-                 </ul>
-             </div>
-         </div>
 
-         <div class="container">
-           <form id="formularioContacto2">
-             <div class="mb-3">
-               <label for="nombre" class="form-label">Nombre</label>
-               <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+             <section>
+             <div id="flexfooter">
+             <div class="imgfooter">
+             <a href="https://instagram.com/cc_15s?igshid=OGQ5ZDc2ODk2ZA==">
+             <img src="img/instagram.png" width="40" class="imagen-1">
+             </a>
+             <a href="https://instagram.com/cc_15s?igshid=OGQ5ZDc2ODk2ZA==">
+             </a>
+         </div>
+         <div class="imgfooter">
+         <a href="https://www.facebook.com/emilynicole.jacobocampos?mibextid=9R9pXO">
+         <img src="img/facebook.png" width="40" class="imagen-1">
+         </a>
+         <a href="https://www.facebook.com/emilynicole.jacobocampos?mibextid=9R9pXO">
+         </a>
+     </div>
+     <div class="imgfooter">
+     <a href="https://wa.me/72089786">
+     <img src="img/whatsapp.png" width="40" class="imagen-1">
+     </a>
+     <a href="https://wa.me/72089786">
+     </a>
+ </div>
              </div>
-             <div class="mb-3">
-               <label for="correo" class="form-label">Correo</label>
-               <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com" required>
-             </div>
-             <div class="mb-3">
-               <label for="mensaje" class="form-label">Comentario</label>
-               <textarea class="form-control" id="mensaje" rows="5" placeholder="Ingrese su mensaje" required></textarea>
-             </div>
-             <button type="submit" class="btn btn-primary" id="enviarBtn">Enviar</button>
-           </form>
+             </section>
          </div>
      </div>
  </div>
  <center>
      <p>Copyright &copy; 2023 | Designed With by Technomarket</p>
  </center>
-</footer>`;
+</footer> `;
 
 return footerIndex;
 }
