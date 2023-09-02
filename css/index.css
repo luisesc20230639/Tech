@@ -18,6 +18,11 @@ body{
     justify-content: center;
 }
 
+footer{
+    margin: 0;
+    padding: 0;
+}
+
 .imagen-1{
     margin-right: 10px;
 }
