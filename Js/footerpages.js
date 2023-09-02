@@ -7,7 +7,7 @@ function generarFooterPages()
              <p>Calle Francisco Prats Ramírez
                  20, esquina Olegatorio
                  Tenares, Los Restauradoes,
-                 Santo Domingo
+                 Santo Domingo.
              </p>
              <p>
                  Tel: +503 6143 1352
