@@ -31,7 +31,7 @@ selectorLicencia.addEventListener('change', function(){
 comprarBtn.addEventListener('click', function(){
 
     if (licencia===0) {
-        swal.fire('¡Licencia no se puede comprar comprada exitosamente!', '', 'error')
+        swal.fire('¡Error al comprar la licencia!', '', 'error')
         return
     }
     else{

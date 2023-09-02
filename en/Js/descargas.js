@@ -12,7 +12,7 @@ let licencia = 0;
 
 selectorLicencia.addEventListener('change', function(){
     
-    if (selectorLicencia.value === 'simple') {
+    if (selectorLicencia.value === 'sencilla') {
         descripcionLicencia.textContent = 'Access to basic functions and limited functions';
         licencia=250;
         precioLicencia.textContent = `$${licencia}`
@@ -31,7 +31,7 @@ selectorLicencia.addEventListener('change', function(){
 comprarBtn.addEventListener('click', function(){
 
     if (licencia===0) {
-        swal.fire('License cannot be purchased successfully purchased!', '', 'mistake')
+        swal.fire('¡License cannot be purchased successfully purchased!', '', 'error')
         return
     }
     else{
@@ -39,7 +39,7 @@ comprarBtn.addEventListener('click', function(){
         Swal.fire({
             icon: 'question',
             title: 'Confirm purchase',
-            text: 'Are you sure to buy the license?',
+            text: '¿Are you sure to buy the license?',
             showCancelButton: true,
             confirmButtonText: 'Yes, buy',
             cancelButtonText: 'Cancel',
@@ -54,3 +54,5 @@ comprarBtn.addEventListener('click', function(){
 
 
 })
+
+
