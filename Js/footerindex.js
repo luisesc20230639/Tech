@@ -13,7 +13,7 @@ function generarFooterIndex()
                  Tel: +503 6143 1352
              </p>
              <p>
-                 svtechnomarket@gmail.com
+                 technomarket@gmail.com
              </p>
 
              <section>
