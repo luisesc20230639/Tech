@@ -1,6 +1,6 @@
 function generarMenuIndex()
 {
- const menuIndex = `<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ const menuIndex = ` <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
  <div class="container-fluid">
      <!-- Logo o nombre del sitio -->
      <a class="navbar-brand" href="index.html"><img src="img/Logo.png" alt="IconoWeb" width="90px"></a>
@@ -34,7 +34,7 @@ function generarMenuIndex()
                  <a class="nav-link" href="pages/contactanos.html">Contáctanos</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="#">Inglés</a>
+                 <a class="nav-link" href="en/index.html">Inglés</a>
              </li>
          </ul>
      </div>

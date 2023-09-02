@@ -16,25 +16,25 @@ function generarMenuIndex()
                  <a class="nav-link active" href="#">Technomarket</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="index.html">Inicio</a>
+                 <a class="nav-link" href="index.html">Home</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="pages/categorias.html">Categorías</a>
+                 <a class="nav-link" href="pages/categories.html">Categories</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="pages/funcionalidades.html">Funcionalidades</a>
+                 <a class="nav-link" href="pages/functionalities.html">Functionalities</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="pages/descargas.html">Descargas</a>
+                 <a class="nav-link" href="pages/downland.html">Downland</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="pages/about.html">Sobre nosotros</a>
+                 <a class="nav-link" href="pages/aboutUs.html">About us</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="pages/contactanos.html">Contáctanos</a>
+                 <a class="nav-link" href="pages/contactUs.html">Contact us</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="#">Inglés</a>
+                 <a class="nav-link" href="../index.html">Spanish</a>
              </li>
          </ul>
      </div>
