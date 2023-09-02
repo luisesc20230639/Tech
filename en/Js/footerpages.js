@@ -13,7 +13,7 @@ function generarFooterPages()
                  Tel: +503 6143 1352
              </p>
              <p>
-                 technomarket@gmail.com
+                 svtechnomarket@gmail.com
              </p>
 
              <section>
