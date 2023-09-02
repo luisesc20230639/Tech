@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: Montserrat;
+}
+
+.parrafo{
+    font-size: x-large;
+}
+
+.sub{
+    color: #8e6995;
+}
+
+
+#flexfooter{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.imagen-1{
+    margin-right: 10px;
+}
+
+.btn{
+    color: white;
+    background-color: #8e6995;
+}
+
+img.rounded-circle:hover{
+    border-radius: 20px;
+    width: 140px;
+   }
+
+.card:hover{
+    transform: translateY(-10px); 
+    animation-duration: 3s;
+    transition: transform 0,2s ease-in-out;
+    transform-origin: center;
+    animation-name: slidein;
+  }
+  
+.imagen2{
+    margin-right: 10px;
+}
+
+.imagen2:hover{
+    border-radius: 10px;
+    width: 30px;
+}
+
+form{
+    background-color: #46315C;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+.form_container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form_title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+    color: white;
+}
+
+.form_input{
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+
+.form_input-message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form_cta{
+    font-family: inherit;
+    font-size: 1rem;
+    color: white;
+    background-color: #8e6995;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+@media (max-width:450px){
+    .form{
+        padding: 3.5em 1em;
+    }
+}
