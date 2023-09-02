@@ -40,6 +40,11 @@ img.rounded-circle:hover{
     animation-name: slidein;
   }
   
-  .img-2 {
-    
-  }
+.imagen2{
+    margin-right: 10px;
+}
+
+.imagen2:hover{
+    border-radius: 20px;
+    width: 50px;
+}

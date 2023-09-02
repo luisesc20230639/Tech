@@ -19,9 +19,9 @@ function generarFooterPages()
              </p>
              <div id="flexfooter">
                  <ul>
-                     <img src="../img/whatsapp.webp" width="70">
-                     <img src="../img/facebook.webp" width="40">
-                     <img src="../img/instagram2.webp" width="40">
+                     <img class="imagen2" src="../img/instagram.png" width="40">
+                     <img class="imagen2" src="../img/facebook.png" width="40">
+                     <img class="imagen2" src="../img/whatsapp.png" width="40">
                  </ul>
              </div>
          </div>
