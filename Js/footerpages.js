@@ -4,8 +4,6 @@ function generarFooterPages()
  <div class="container text-center">
      <div class="row row-cols-12">
          <div class="col">
-             <h5>Contacto</h5>
-             <br>
              <p>Calle Francisco Prats Ramírez
                  20, esquina Olegatorio
                  Tenares, Los Restauradoes,

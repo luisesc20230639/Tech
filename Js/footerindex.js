@@ -4,7 +4,6 @@ function generarFooterIndex()
  <div class="container text-center">
      <div class="row row-cols-12">
          <div class="col">
-             <br>
              <p>Calle Francisco Prats Ramírez
                  20, esquina Olegatorio
                  Tenares, Los Restauradoes,
