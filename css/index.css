@@ -26,3 +26,20 @@ body{
     color: white;
     background-color: #8e6995;
 }
+
+img.rounded-circle:hover{
+    border-radius: 20px;
+    width: 140px;
+   }
+
+.card:hover{
+    transform: translateY(-10px); 
+    animation-duration: 3s;
+    transition: transform 0,2s ease-in-out;
+    transform-origin: center;
+    animation-name: slidein;
+  }
+  
+  .img-2 {
+    
+  }

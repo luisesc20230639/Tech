@@ -13,12 +13,12 @@ let licencia = 0;
 selectorLicencia.addEventListener('change', function(){
     
     if (selectorLicencia.value === 'sencilla') {
-        descripcionLicencia.textContent = 'Licencia sencilla: Acceso a funciones básicas y funciones limitadas';
-        licencia=150;
+        descripcionLicencia.textContent = 'Acceso a funciones básicas y funciones limitadas';
+        licencia=250;
         precioLicencia.textContent = `$${licencia}`
     } else if (selectorLicencia.value == 'premium'){
-        descripcionLicencia.textContent = 'Licencia Premium: Acceso completo a todas las funciones, seguridad avanzada y soporte técnico ampliado';
-        licencia=450;
+        descripcionLicencia.textContent = 'Acceso completo a todas las funciones, seguridad avanzada y soporte técnico ampliado';
+        licencia=500;
         precioLicencia.textContent = ` $${ licencia}`;
 
     } else {
