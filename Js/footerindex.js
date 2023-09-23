@@ -19,17 +19,17 @@ function generarFooterIndex()
              <section>
                  <div id="flexfooter">
                  <div class="imgfooter">
-                 <a href="https://instagram.com/cc_15s?igshid=OGQ5ZDc2ODk2ZA==">
+                 <a href="https://instagram.com/technomarket_sv?igshid=NzZlODBkYWE4Ng==">
                  <img class="imagen2" src="img/instagram.png" width="40">
                  </a>
-                 <a href="https://instagram.com/cc_15s?igshid=OGQ5ZDc2ODk2ZA==">
+                 <a href="https://instagram.com/technomarket_sv?igshid=NzZlODBkYWE4Ng==">
                  </a>
              </div>
              <div class="imgfooter">
-             <a href="https://www.facebook.com/emilynicole.jacobocampos?mibextid=9R9pXO">
+             <a href="https://www.facebook.com/profile.php?id=61551494427695&mibextid=2JQ9oc">
              <img class="imagen2" src="img/facebook.png" width="40">
              </a>
-             <a href="https://www.facebook.com/emilynicole.jacobocampos?mibextid=9R9pXO">
+             <a href="https://www.facebook.com/profile.php?id=61551494427695&mibextid=2JQ9oc">
              </a>
          </div>
          <div class="imgfooter">
