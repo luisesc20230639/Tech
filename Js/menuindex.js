@@ -16,9 +16,6 @@ function generarMenuIndex()
                  <a class="nav-link active" href="#">Technomarket</a>
              </li>
              <li class="nav-item">
-                 <a class="nav-link" href="index.html">Inicio</a>
-             </li>
-             <li class="nav-item">
                  <a class="nav-link" href="pages/categorias.html">Categorías</a>
              </li>
              <li class="nav-item">
