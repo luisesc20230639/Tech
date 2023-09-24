@@ -19,7 +19,7 @@ function generarFooterIndex()
              <section>
                  <div id="flexfooter">
                  <div class="imgfooter">
-                 <a href="https://instagram.com/technomarket_sv?igshid=NzZlODBkYWE4Ng==">
+                 <a href="https://instagram.com/technomarket_sv/?igshid=NzZlODBkYWE4Ng%3D%3D">
                  <img class="imagen2" src="img/instagram.png" width="40">
                  </a>
                  <a href="https://instagram.com/technomarket_sv?igshid=NzZlODBkYWE4Ng==">
