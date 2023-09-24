@@ -13,7 +13,7 @@ function generarMenuPages()
      <div class="collapse navbar-collapse" id="navbarNav">
          <ul class="navbar-nav">
              <li class="nav-item">
-                 <a class="nav-link active" href="#">Technomarket</a>
+                 <a class="nav-link active" href="../index.html">Technomarket</a>
              </li>
              <li class="nav-item">
                  <a class="nav-link" href="../index.html">Home</a>

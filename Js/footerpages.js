@@ -19,14 +19,14 @@ function generarFooterPages()
              <section>
                  <div id="flexfooter">
                  <div class="imgfooter">
-                 <a href="https://instagram.com/technomarket_sv/?igshid=NzZlODBkYWE4Ng%3D%3D">
+                 <a href="https://instagram.com/technomarket_sv/?igshid=NzZlODBkYWE4Ng%3D%3D" target="_blank">
                  <img class="imagen2" src="../img/instagram.png" width="40">
                  </a>
-                 <a href="https://instagram.com/technomarket_sv?igshid=NzZlODBkYWE4Ng==">
+                 <a href="https://instagram.com/technomarket_sv/?igshid=NzZlODBkYWE4Ng%3D%3D">
                  </a>
              </div>
              <div class="imgfooter">
-             <a href="https://www.facebook.com/profile.php?id=61551494427695&mibextid=2JQ9oc">
+             <a href="https://www.facebook.com/profile.php?id=61551494427695&mibextid=2JQ9oc" target="_blank">
              <img class="imagen2" src="../img/facebook.png" width="40">
              </a>
              <a href="https://www.facebook.com/profile.php?id=61551494427695&mibextid=2JQ9oc">
