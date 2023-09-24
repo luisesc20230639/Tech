@@ -3,7 +3,7 @@ function generarMenuPages()
  const menuPages = `<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
  <div class="container-fluid">
      <!-- Logo o nombre del sitio -->
-     <a class="navbar-brand" href="index.html"><img src="../img/Logo.png" alt="IconoWeb" width="90px"></a>
+     <a class="navbar-brand" href="../index.html"><img src="../img/Logo.png" alt="IconoWeb" width="90px"></a>
      <!-- Botón para el menú responsive en pantallas pequeñas -->
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
          aria-controls="navbarNav" aria-expanded="false" aria-label="Togglenavigation">
